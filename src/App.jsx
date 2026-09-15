@@ -1,9 +1,12 @@
 export default function App(){
   return (
-    <div style={{background:'#0a0a0a', minHeight:'100vh', color:'white', padding:20}}>
-      <h1 style={{color:'#a855f7'}}>MCP STUDIO PREMIERE PRO</h1>
-      <p>Versao PRO funcionando!</p>
-      <p style={{background:'#1a1a1a', padding:10, borderRadius:8, marginTop:10}}>Se voce ve isso, o build deu certo! ✅</p>
+    <div style={{background:'#000', color:'#fff', minHeight:'100vh', padding:20, fontFamily:'sans-serif'}}>
+      <h1 style={{color:'#a855f7', fontSize:32}}>MCP STUDIO</h1>
+      <h2 style={{color:'#fff'}}>PREMIERE PRO V3</h2>
+      <div style={{background:'#111', padding:15, borderRadius:10, marginTop:20}}>
+        <p>✅ SE VOCÊ VÊ ISSO, FUNCIONOU!</p>
+        <p>Agora vamos colocar o editor completo.</p>
+      </div>
     </div>
   )
 }
